@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h, initial-scale=1.0">
+    <title>Formularios html</title>
+    <link rel="stylesheet" href="/css/formularios.css">
+</head>
+ 
+<body>
+    <header>
+        <h1>Formularios html</h1>
+    </header>
+    <br>
+    <main class="cuerpo">
+        <div class="item">
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis fugit porro quibusdam voluptatem debitis at ea totam non, voluptatibus quis incidunt nulla praesentium inventore eos illo animi, iste explicabo minima?</p>
+        </div>
+        <div class="item">
+            <form action="enviar.php" method="post">
+               <input type="text" placeholder="Escribe tu Nombre" required>
+               <input type="email" placeholder="E-mail" required>
+               <input list="opciones">
+               <datalist id="opciones">
+                  <option value="Estudiante">Estudiante</option>
+                  <option value="Empleado"></option>
+                  <option value="Egresado"></option>
+                  <option value="Aspirante"></option>
+               </datalist>
+               <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+               <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
