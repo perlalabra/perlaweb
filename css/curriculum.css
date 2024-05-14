@@ -1,0 +1,112 @@
+/*DOCUMENTO*/
+
+* { margin: 0px;
+    padding: 0px; }
+
+body { background-color: aliceblue;
+       margin-bottom: 10%;
+       margin-top: 60px;}
+
+.cabecera { padding: 20px;
+            display: flex; 
+            flex-direction: row;
+            width: 70%;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            background-color: rgb(228, 178, 255);
+            border-bottom: 25px solid rgb(215, 140, 255);
+            margin-left: 10%; 
+            margin-right: 10%;
+           }
+
+.cabecera h1, p { font-family: Arial, Helvetica, sans-serif; 
+                 font-size: 31px;
+                 margin-right: 40px;
+                 text-align: center;
+                 margin-bottom: 10px;
+                 color: #351a4e;
+                 }
+
+h1 { margin-top: 90px; 
+     font-weight: bold;}
+
+img { border-radius: 130px; 
+      margin-right: 170px;}
+
+.cuerpo { 
+         display: flex;
+         flex-direction: row wrap 
+         }
+
+.texto p { font-family: Arial, Helvetica, sans-serif; 
+         text-align: justify;
+         font-size: 15px;
+         margin-left: 5%;
+         margin-right: 30%;
+         }
+
+.skills { font-family: Arial, Helvetica, sans-serif; 
+          font-size: 15px;
+          line-height: 1.5em;    
+          margin-left: 170px;
+          margin-top: 30px;}
+
+#jiji { font-weight: bold;
+        font-style: italic;
+        color:   #633290;
+        text-align: center;
+        font-size: 25px;
+        margin-top: 40px;
+        margin-bottom: 20px;}
+
+dt { font-weight: bold;
+     color:  #351a4e;
+     font-size: 25px;
+     margin-bottom: 10px;
+     }
+    
+.hard { margin-bottom: 15px; }
+
+#comillas { text-align: center; 
+            color: #351a4e;
+            font-size: 50px;
+            font-weight: bold;
+            margin-top: 30px;}
+
+.educacion, .experiencia, .contacto { margin-top: 10px; 
+             font-family: Arial, Helvetica, sans-serif;
+             font-size: 15px;
+             line-height: 1.5em;
+             margin-left: 175px;}
+
+#bold { font-weight: bold; 
+        color: #633290;
+        margin-top: 10px;}
+
+i { color:  #633290; 
+    font-size: 18px;
+    margin-right: 10px;}
+
+footer { display: flex;
+         flex-direction: row;
+         background-color:  rgb(228, 178, 255); 
+         border-top: 15px solid rgb(215, 140, 255);
+         margin-left: 10%;
+         margin-right: 20%;
+         margin-top: 30px;}
+
+footer p { font-size: 15px; 
+           text-align: center;
+           margin-top: 35px;
+           margin-bottom: 40px;}
+
+.redes { width: 20%; 
+         font-size: 3em;
+         color: #351a4e;
+         text-align: center;
+         margin-left: 55px;}
+
+.ins:active, .ins:hover { color: rgb(240, 59, 155); }
+.fac:active, .fac:hover { color: rgb(83, 64, 222); }
+

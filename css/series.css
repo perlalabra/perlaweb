@@ -1,0 +1,57 @@
+/*DOCUMENTO*/
+
+* {margin: 0px; 
+   padding: 0px;}
+
+header { background-color: rgb(122, 59, 182); 
+         padding: 30px;}
+
+body {background-color: rgb(252, 245, 255);
+      }
+
+h1 {font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    color:  rgb(252, 245, 255);
+    }
+
+h2 { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color:rgb(122, 59, 182) ;
+     text-align: center; 
+     margin-bottom: 20px;}
+
+.container p { font-family: sans-serif; 
+    text-align: justify;
+    line-height: 1.5em;
+    margin-bottom: 60px;
+    margin-top: 20px;}
+
+.container { padding: 20px;
+      display: flex; 
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 50%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      }
+
+.conteiner { width: 100%;
+        display: flex; 
+        flex-direction: column;}
+
+.serie { width: 100%; }
+
+.serie img { width: 100%; }
+
+footer p { 
+   font-family: sans-serif;
+   
+   color: rgb(252, 245, 255);
+   text-align: center;
+   background-color: rgb(122, 59, 182);
+  }
+
+footer { background-color:  rgb(122, 59, 182);
+   
+         padding: 20px; }

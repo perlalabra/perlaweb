@@ -1,0 +1,59 @@
+/*DOCUMENTO*/
+
+* { margin: 0;
+    padding: 0; }
+
+section, div { box-sizing: border-box;}
+
+/*ENCABEZADOS*/
+
+h2 { display: block;
+     width: 100%;
+     padding: 20px 0px;
+     background-color: rgb(255, 160, 233);}
+
+/*LAYOUT*/
+
+.media { width: 100%;
+         padding: 15px;
+         background-color: #fff7fe;}
+
+.container { width: 100%;
+             display: flex; 
+             flex-direction: column;}
+
+.item { width: 100%; }
+
+.item img { width: 100%; }
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width:600px) {
+
+    
+
+    .container { flex-direction: row;}
+
+    h2 { background-color: rgb(213, 201, 250);}
+
+
+
+}
+
+@media only screen and (min-width:992px) {
+
+    .container { flex-direction: row;}
+
+    h2 { background-color: rgb(207, 255, 212);}
+
+
+}
+
+
+@media only screen and (min-width:1280px) {
+
+    .container { flex-direction: row;}
+
+    h2 { background-color: rgb(255, 241, 220);}
+
+}

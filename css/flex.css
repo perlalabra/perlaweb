@@ -1,0 +1,13 @@
+/*Documento*/
+*{margin: 0;
+  padding: 0;}
+
+.ejemplo {background: rgb(43, 232, 100) !important;
+          padding: 15px 0px;}
+
+.contenedor {background: purple;
+             padding: 15px;
+             width: 80%;}
+
+.item {background: rgb(255, 193, 78);
+       width: 15%;}

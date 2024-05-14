@@ -1,0 +1,64 @@
+/*DOCUMENTO*/
+
+* { margin: 0px;
+    padding: 0px; }
+
+body { background-color: aliceblue; }
+
+header { background-color: rgb(186, 222, 254); 
+         padding: 5px;}
+
+h1, h2, h3 { color: rgb(72, 72, 193); 
+             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+h1 { text-align: center; 
+     margin-top: 50px;
+     margin-bottom: 20px;}  
+     
+h2 { margin-bottom: 10px; }
+
+.cabecera h3 { text-align: center;
+             margin-bottom: 80px; 
+             color: rgb(107, 107, 154);}
+
+p { font-family: sans-serif;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    line-height: 1.5em 
+    
+    }
+
+.item, .intro { margin-left: 50px; 
+        margin-right: 50px;
+        text-align: justify;}
+        
+.imagen { margin: auto;
+          padding: auto;
+          display:grid 
+             }
+
+.flex-container { padding: 20px;
+                  display: flex; 
+                  flex-direction: row;
+                  width: 70%;
+                  margin: 0 auto;
+                  margin-bottom: 20px;
+                  margin-top: 20px;
+                  }
+
+.intro { padding: 20px;
+                    display: flex; 
+                    flex-direction: row-reverse;
+                    width: 70%;
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                    margin-top: 20px;
+                    }
+
+.imagen1 { margin-right: 40px;
+           margin-left: 50px; }
+  
+footer { text-align: center;
+         color: aliceblue;
+         background-color: rgb(72, 72, 193);
+        padding: 5px; }

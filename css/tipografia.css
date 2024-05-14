@@ -1,0 +1,15 @@
+/*DOCUMENTO*/
+
+@font-face {
+    font-family: 'great_vibesregular';
+    src: url('../fonts/webfontkit-20240514-044449/greatvibes-regular-webfont.woff2') format('woff2'),
+         url('../fonts/webfontkit-20240514-044449/greatvibes-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 { font-family: 'great_vibesregular';
+     text-align: center;
+     font-size: 6em;
+     color: rgb(255, 104, 154);
+     margin-top: 30px; }

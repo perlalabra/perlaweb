@@ -1,0 +1,49 @@
+/*DOCUMENTO*/
+*{ background-color: #FFFEF5; }
+
+* { margin: 0;
+    padding: 0; }
+
+
+
+main, article, aside, section, div, header, nav, footer { box-sizing: border-box; }
+
+/*header*/
+
+header p { border-radius: 20px; 
+           text-align: center;
+           color: white;
+           margin-top: 10px;}
+
+header i { background-color: #FFFEF5; 
+           color: #FF8AAB;
+           font-size: 3em; }
+
+.cabecera { display: flex;
+            flex-direction: row; 
+            align-items: center;}
+
+
+
+/*main*/
+
+
+
+
+
+
+/*footer*/
+
+
+footer dl, dd, p { background-color: #FF8AAB; }
+
+footer i { background-color: #FF8AAB; }
+
+footer i { color: #FFFEF5; 
+    font-size: 2em;}
+
+
+
+.col-3 { background-color:  #FF8AAB; }
+
+footer { background-color: #FF8AAB; }

@@ -1,0 +1,46 @@
+/*DOCUMENTO*/
+
+* { margin: 0px; 
+    padding: 0px;}
+
+p { font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+    margin-bottom: 4px;}
+
+h2 { font-family: Arial, Helvetica, sans-serif; 
+     color: black;
+     font-size: 40px;
+     margin-left: 20px;
+     margin-top: 50px;
+     }
+
+h3 { font-family: Arial, Helvetica, sans-serif; 
+     color: gray;
+     font-size: 25px;
+     margin-left: 15px;
+     margin-top: 60px;}
+
+.flex { display: flex; 
+        flex-direction: row;}
+
+.video { padding: 0px; }
+
+#gris { color: grey; 
+        font-weight: lighter;}
+
+.video video { width: 98%; 
+               margin-right: 2px;}
+
+.container { padding: 10px;
+    display: flex; 
+    flex-direction: row;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    }
+
+i { color: red; 
+    }
+

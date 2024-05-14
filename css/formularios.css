@@ -1,0 +1,32 @@
+/*DOCUMENTO CSS*/
+* {margin: 0px;
+  padding: 0px;} 
+
+body {font-family: "Nanum Myeongjo", seirf; 
+      background-color: rgb(195, 227, 239);}
+
+h1 { text-align: center;
+     padding: 25px 0px;
+     background-color: plum;
+     text-transform: uppercase;
+     font-weight: 1000;
+     color: aliceblue;
+     text-shadow: 0px 0px 4px beige;
+     border-bottom: 15px solid beige;}
+
+*cuerpo {width: 100%;
+         display: flex;
+        }
+
+.item { width: 50%;
+        margin: auto;
+        padding: 15px;
+        box-sizing: border-box;}
+
+.item input, textarea { width: 100%;
+                        padding: 8px;
+                        margin-bottom: 8px;
+                        border-radius: 10px; }
+
+.item imput::placeholder, textarea::placeholder { font-style: italic;
+                                                  color: darkred; }

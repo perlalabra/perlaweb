@@ -1,0 +1,22 @@
+/*DOCUEMNTO CSS*/
+
+* { margin: 0;
+    padding: 0; }
+
+main, article, aside, section, div, header, nav, footer { box-sizing: border-box; }
+
+#cabecera nav { background-color: rgb(252, 117, 178); }
+
+#cabecera { background-color: rgb(250, 101, 156); }
+
+.logo { width: 150px; }
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255)}
+
+/*  Este es para el elemento activo lo puedes omitir si asi deseas  */
+    .navbar-light .navbar-nav .active>.nav-link {
+     color: red;}
+
+
+     

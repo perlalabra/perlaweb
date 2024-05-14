@@ -1,0 +1,34 @@
+/*DOCUMENTO*/
+
+h1 { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal; 
+    text-align: center;}
+
+h2 { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal; }
+
+header, main, footer, section { display: block; 
+                                box-sizing: border-box;}
+
+.listas { background-color: rgb(252, 253, 218); 
+          }
+
+.contenido { background-color: rgb(255, 239, 224); 
+             }
+
+.items { width: 60%; 
+         line-height: 1.5em;
+         padding: 15px;
+         margin-left: auto;
+         margin-right: auto;
+         text-align: justify;}
+         
+.texto { color: #1e7fee; }
+
+
+
+
