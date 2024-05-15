@@ -10,6 +10,8 @@ main, article, aside, section, div, header, nav, footer { box-sizing: border-box
 
 /*header*/
 
+.imagen img { width: 100%; }
+
 header p { border-radius: 20px; 
            text-align: center;
            color: white;
